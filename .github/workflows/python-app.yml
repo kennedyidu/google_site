@@ -36,4 +36,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with maze
       run: |
-        python maze.py maze1.txt
+        python maze.py maze3.txt
